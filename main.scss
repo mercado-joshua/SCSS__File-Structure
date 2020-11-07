@@ -1,0 +1,57 @@
+/*
+Theme Name: demo-1
+Author: Joshua Mercado
+Description: My First Theme made with WordPress.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: demo-theme-1
+
+@package demo-theme-1
+*/
+
+@charset 'utf-8';
+
+/* ABSTRACTS - These files are meant to be just helpers which don't output any CSS when compiled.
+=============================================================================================== */
+@import './1-abstracts/global';
+
+/* VENDOR - contains all the third party files that the application needs.
+================================================================================================ */
+@import './2-vendor/global';
+
+/* BASE - contains all the boilerplate of the project.
+================================================================================================ */
+@import './3-base/global';
+
+/* LAYOUTS - contains all styles involved with the layout of your project.
+================================================================================================ */
+@import './4-layouts/global';
+
+// /* THEMES - hold files that create project specific themes.
+// ================================================================================================ */
+// @import './5-themes/global';
+
+/* PAGES - contains specific styles for each page with the filename being the name of the page.
+================================================================================================ */
+@import './6-pages/global';
+
+// /* SCOPE - set up a brand new styling context for a particular section of your UI.
+// ================================================================================================ */
+// @import './7-scope/global';
+
+/* OBJECTS - reusable and commonly used design.
+================================================================================================ */
+@import './8-objects/global';
+
+/* COMPONENTS - holds micro layout files. Anything reusable such as buttons, navbars, cards etc.
+================================================================================================ */
+@import './9-components/global';
+
+// /* UTILITIES - complete single responsibility rules which have a very specific and targeted task.
+// ================================================================================================ */
+// @import './10-utilities/global';
+
+// /* SHAME - signals developers that this class is hacky.
+// ================================================================================================ */
+// @import './11-shame/global';

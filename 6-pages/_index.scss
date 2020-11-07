@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to this page.
+// -----------------------------------------------------------------------------
+
+.p-index {
+  margin: 0;
+  font-family: sans-serif;
+
+  &__container {
+    width: 100%;
+    background: #23424a;
+    color: white;
+    padding: 50px 0;
+  }
+
+  &__sub-container {
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass colors.
+// -----------------------------------------------------------------------------
+
+$blue: blue;
+$white: #fff;
+$red: red;
+
+
+$block-name__element-name--theme-color: red;
+
+// Strings
+$string: '../images/hello.jpg';
+$stringTwo: no-repeat;
+$stringThree: home;
+
+$int: 20;
+$float: 1.5;
+$width: 600px;
+
+$rgb : rgb(255, 255, 255);
+$list: 1px 1px 3px #000, 3px 3px 4px #ccc;
+
+$map: ('key1': 'value1', 'color': blue);
+
+$bool: true;
+$null: null; // no value assigned

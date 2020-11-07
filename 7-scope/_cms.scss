@@ -1,0 +1,21 @@
+/**
+ * Create a new styling context for any free-text CMS content (blog posts,
+ * news pages, etc.).
+ *
+ * 1. Use a larger and more readable typeface for continuous prose.
+ * 2. Force all headings to have the same appearance, regardless of their
+ *    hierarchy.
+ * 3. Make links inside long text more apparent.
+ */
+
+.s-cms-content {
+  font: 16px/1.5 serif; /* [1] */
+
+  h1, h2, h3, h4, h5, h6 {
+    font: bold 100%/1.5 sans-serif; /* [2] */
+  }
+
+  a {
+    text-decoration: underline; /* [3] */
+  }
+}
