@@ -1,2 +1,2 @@
 # SCSS__File-Structure
-SCSS File Structure that can be used in your website projects.
+SCSS File Structure that you can use in your website projects.
